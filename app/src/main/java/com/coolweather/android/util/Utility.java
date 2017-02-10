@@ -7,6 +7,7 @@ import android.widget.Toast;
 import com.coolweather.android.db.City;
 import com.coolweather.android.db.County;
 import com.coolweather.android.db.Province;
+import com.coolweather.android.gson.Weather;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -90,8 +91,11 @@ public class Utility {
                 e.printStackTrace();
             }
         }
-
         return false;
     }
 
+    public static Weather handleWeatherResponse(String weatherString) {
+
+        return null;
+    }
 }
