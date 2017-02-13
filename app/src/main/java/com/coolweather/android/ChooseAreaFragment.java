@@ -131,12 +131,9 @@ public class ChooseAreaFragment extends Fragment {
                         activity.swipeRefreshLayout.setRefreshing(true);
                         // 更新数据，更新完毕后进度条消失
                         activity.requestWeather(weatherId);
-
                     }
-
-
-
                 }
+
             }
         });
         backButton.setOnClickListener(new View.OnClickListener() {
